@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui;
+
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr) ;
+/* flex-direction: row; */
+/*     flex-wrap: wrap; */
+/*     justify-content: space-between; */
+/*    align-items: center; */
+}
+
+article {
+    border: 2px solid tomato;
+    margin: 1rem;    
+}
